@@ -1,20 +1,26 @@
 import { Button } from "@mui/material"
 import AddCircle from '@mui/icons-material/AddCircleOutline';
 import { NavBar } from "../NavBar/NavBar";
+import { Card } from "../Card/Card";
 export const DashBoard = () => {
 
     return (
-        <>
+        <div>
             <NavBar />
-            <div className="w-full  flex-row absolute mt-52 ">
-                <Button variant="contained"
-                    startIcon={<AddCircle />}
-                    className="!bg-regal-blue !mr-4 !rounded-sm !float-right !text-white !p-2 "
-                >
-                    Adicionar Rompimento
-                </Button>
-            </div>
+            <main className="mt-[125px]">
+                <div className="w-full flex">
+                    <Button
+                        variant="contained"
+                        startIcon={<AddCircle />}
+                        className="!bg-regal-blue !mx-auto !float-right items-center !mr-16 !mt-8 fixed !rounded-sm  !text-white !p-2 "
+                    >
+                        Adicionar Rompimento
+                    </Button>
+                </div>
+                <Card />
 
-        </>
+            </main>
+
+        </div>
     )
 }

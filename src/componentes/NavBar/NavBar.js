@@ -4,7 +4,7 @@ import { Tooltip } from "@mui/material";
 export const NavBar = () => {
 
     return (
-        <div className='p-5 bg-blue-800 fixed w-full justify-between items-center grow-1 flex flex-row'>
+        <div className='p-5 top-0 bg-regal-blue fixed w-full justify-between items-center grow-1 flex flex-row'>
             <img
                 className="w-60 mt-2"
                 alt="Imagem Navbar"
