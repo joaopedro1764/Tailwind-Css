@@ -10,7 +10,7 @@ export const NavBar = () => {
                 alt="Imagem Navbar"
                 src={require("./logonm.png")}
             />
-            <h1 class="mr-24 text-3xl text-center text-white uppercase font-bold mr-122">
+            <h1 class="mr-32 text-3xl text-center text-white uppercase font-bold">
                 Monitoramento NMT
             </h1>
             <Tooltip title="Sair">

@@ -12,7 +12,7 @@ export const DashBoard = () => {
                     <Button
                         variant="contained"
                         startIcon={<AddCircle />}
-                        className="!bg-regal-blue !mx-auto !float-right items-center !mr-16 !mt-8 fixed !rounded-sm  !text-white !p-2 "
+                        className="!bg-regal-blue !z-auto !top-28 !right-0 !mx-auto items-center !mr-11 !mt-8 !sticky !rounded-sm !text-white !p-2 hover:!bg-blue-400"
                     >
                         Adicionar Rompimento
                     </Button>
